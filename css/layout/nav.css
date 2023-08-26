@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+  background-color: rgb(247, 96, 96);
+}
+
+ul, li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.image_logo{
+    width: 10%;
+    border-radius: 50%;
+}
+
+@media(max-width: 600px){
+    .lista_menu {
+        display: none;
+    }
+}
